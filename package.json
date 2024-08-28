@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "A Landing Page For healthy food buisness",
   "scripts": {
-    "start": "parcel script.js",
-    "build": "parcel build script.js"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.11.0",
     "@parcel/transformer-webmanifest": "^2.11.0",
     "parcel": "^2.11.0"
   }
